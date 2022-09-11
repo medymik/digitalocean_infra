@@ -1,0 +1,6 @@
+resource "digitalocean_droplet" "instance" {
+  image  = "ubuntu-20-04-x64"
+  name   = "instance"
+  region = "lon1"
+  size   = "s-1vcpu-1gb"
+}
